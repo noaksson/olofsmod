@@ -1,0 +1,7 @@
+name = "Olofs Mod"
+path = "mod/Olofs Mod"
+user_dir = "Olofs Mod"
+replace path: "common"
+replace path: "gfx/flags"
+replace path: "localisation"
+replace path: "decisions"
