@@ -168,9 +168,8 @@ succession_laws = {
 				is_patrician = no
 				
 				OR = {
-					NOT = { religion_group = pagan_group }
+					religion_group = pagan_group
 					is_reformed_religion = yes
-					religion = hellenic_pagan
 				}
 			}
 			OR = {

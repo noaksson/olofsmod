@@ -19,7 +19,6 @@ job_chancellor = {
 	monthly_prestige = 0.015
 	
 	allow = {
-		is_female = no
 		is_adult = yes
 		prisoner = no
 		NOT = { trait = incapable }
@@ -48,7 +47,6 @@ job_marshal = {
 	monthly_prestige = 0.015
 	
 	allow = {
-		is_female = no
 		is_adult = yes
 		prisoner = no
 		NOT = { trait = incapable }
@@ -77,7 +75,6 @@ job_treasurer = {
 	monthly_prestige = 0.015
 	
 	allow = {
-		is_female = 
 		is_adult = yes
 		prisoner = no
 		NOT = { trait = incapable }
@@ -104,21 +101,6 @@ job_spymaster = {
 	monthly_salary = 0.1
 	
 	allow = {
-		OR = {
-			is_female = no
-			liege = { 
-				OR = {
-					mother = { character = FROM }
-					spouse = { character = FROM }
-				}
-			}
-			AND = {
-				religion_group = pagan_group
-				liege = {
-					religion_group = pagan_group
-				}
-			}
-		}
 		is_adult = yes
 		prisoner = no
 		NOT = { trait = incapable }
@@ -150,17 +132,6 @@ job_spiritual = {
 		prisoner = no
 		liege = {
 			religion = ROOT
-		}
-		
-		OR = {
-			is_female = no
-			AND = {
-				religion_group = pagan_group
-				NOT = { religion = aztec }
-				NOT = { religion = aztec_reformed}
-				NOT = { religion = tengri_pagan }
-				NOT = { religion = tengri_pagan_reformed}
-			}
 		}
 		
 		NOT = { trait = incapable }
