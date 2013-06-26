@@ -24,11 +24,11 @@ normal_player = {
 hard_player = {
     global_tax_modifier = 0.2 
     monthly_character_piety = 1
-    diplomacy = 20
-    intrigue = 20
-    martial = 20
-    stewardship = 55
-    learning = 20
+    diplomacy = 10
+    intrigue = 10
+    martial = 10
+    stewardship = 10
+    learning = 10
     monthly_character_wealth = 20
 }
 
