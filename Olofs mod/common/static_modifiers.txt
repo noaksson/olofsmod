@@ -9,30 +9,57 @@
 ##########################################################################
 
 very_easy_player = {
+	global_tax_modifier = 0.3 
+    monthly_character_piety = 1.5
+    diplomacy = 14
+    intrigue = 14
+    martial = 14
+    stewardship = 14
+    learning = 14
 	fertility = 0.5
 	land_morale = 0.5
 }
 
 easy_player = {
+	global_tax_modifier = 0.25
+    monthly_character_piety = 1.25
+    diplomacy = 12
+    intrigue = 12
+    martial = 12
+    stewardship = 12
+    learning = 12
 	fertility = 0.25
 	land_morale = 0.25
 }
 
 normal_player = {
-}
-
-hard_player = {
-    global_tax_modifier = 0.2 
+	global_tax_modifier = 0.2 
     monthly_character_piety = 1
     diplomacy = 10
     intrigue = 10
     martial = 10
     stewardship = 10
     learning = 10
-    monthly_character_wealth = 20
+}
+
+hard_player = {
+    global_tax_modifier = 0.1 
+    monthly_character_piety = 0.5
+    diplomacy = 7
+    intrigue = 7
+    martial = 7
+    stewardship = 7
+    learning = 7
 }
 
 very_hard_player = {
+	global_tax_modifier = 0.05 
+    monthly_character_piety = 0.25
+    diplomacy = 5
+    intrigue = 5
+    martial = 5
+    stewardship = 5
+    learning = 5
 	land_morale = -0.25
 }
 
