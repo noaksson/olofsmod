@@ -166,11 +166,6 @@ succession_laws = {
 				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
-				
-				OR = {
-					religion_group = pagan_group
-					is_reformed_religion = yes
-				}
 			}
 			OR = {
 				is_landless_type_title = no
